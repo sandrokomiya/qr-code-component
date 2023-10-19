@@ -1,0 +1,41 @@
+/* responsivo.css */
+@media (max-width: 1440px) {
+
+    .codigo {
+        padding: 10px;
+    }
+
+    .imagem {
+        
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .texto1 {
+        font-size: 1.2rem;
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .codigo {
+        padding: 10%;
+        width: 90%;
+        height: auto;
+    }
+
+    .imagem {
+        padding: auto;
+        height: auto;
+        width: 90%;
+    }
+
+    .texto1 {
+        font-size: 1.6rem;
+    }
+
+    .attribution {
+        font-size: 1.2rem;
+    }
+}
